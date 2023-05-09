@@ -1,0 +1,12 @@
+version: "3.0"
+
+stories:
+  - story: hello roboto
+    steps:
+      - intent: hello
+      - action: utter_hello
+
+  - story: bye roboto
+    steps:
+      - intent: bye
+      - action: utter_bye

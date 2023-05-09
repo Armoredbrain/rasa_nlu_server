@@ -1,0 +1,17 @@
+version: "3.0"
+
+nlu:
+  - intent: hello
+    examples: |
+      - Hi roboto, how do you do?
+      - Hello, how are you today?
+      - Hey you, help me
+      - Bonjour le chat bot
+
+  - intent: bye
+    examples: |
+      - Bye, i'm done for today
+      - Ciao roboto
+      - Au revoir et à bientôt
+      - See you next time
+      - Please be quiet
